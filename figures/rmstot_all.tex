@@ -1,0 +1,178 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=0.951\figurewidth,
+height=\figureheight,
+at={(0\figurewidth,0\figureheight)},
+scale only axis,
+xmin=0.5,
+xmax=4.5,
+xtick={1,2,3,4,5},
+xticklabels={{one-to-one},{washout},{fixed-base},{fb + comp}},
+xlabel style={font=\color{white!15!black}},
+xlabel={motion},
+ymin=0.1,
+ymax=0.8,
+ylabel style={font=\color{white!15!black}},
+ylabel={$RMS_{u}$},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids,
+clip mode=individual,ticklabel style={font=\footnotesize},xlabel style={font=\footnotesize},ylabel style={font=\footnotesize},legend style={font=\footnotesize},
+]
+\addplot [color=blue, line width=1.0pt, draw=none, mark=o, mark options={solid, blue}, forget plot]
+  table[row sep=crcr]{%
+0.9	0.400676190476191\\
+1.9	0.546883333333334\\
+2.9	0.590620476190476\\
+3.9	0.576940476190476\\
+};
+\addplot [color=red, line width=1.0pt, draw=none, mark=o, mark options={solid, red}, forget plot]
+  table[row sep=crcr]{%
+1.1	0.33365\\
+2.1	0.331983333333334\\
+3.1	0.531673809523809\\
+4.1	0.547476190476191\\
+};
+\addplot [color=blue, dashed, forget plot]
+  table[row sep=crcr]{%
+0.9	0.400676190476191\\
+1.9	0.546883333333334\\
+2.9	0.590620476190476\\
+3.9	0.576940476190476\\
+};
+\addplot [color=red, dashed, forget plot]
+  table[row sep=crcr]{%
+1.1	0.33365\\
+2.1	0.331983333333334\\
+3.1	0.531673809523809\\
+4.1	0.547476190476191\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+0.9	0.210398805799024\\
+0.9	0.590953575153357\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+0.85	0.590953575153357\\
+0.95	0.590953575153357\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+0.85	0.210398805799024\\
+0.95	0.210398805799024\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.1	0.198119334286715\\
+1.1	0.469180665713285\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.05	0.469180665713285\\
+1.15	0.469180665713285\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.05	0.198119334286715\\
+1.15	0.198119334286715\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.9	0.370989186961503\\
+1.9	0.722777479705164\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.85	0.722777479705164\\
+1.95	0.722777479705164\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+1.85	0.370989186961503\\
+1.95	0.370989186961503\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.1	0.195741140646204\\
+2.1	0.468225526020464\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.05	0.468225526020464\\
+2.15	0.468225526020464\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.05	0.195741140646204\\
+2.15	0.195741140646204\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.9	0.496045260586303\\
+2.9	0.685195691794649\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.85	0.685195691794649\\
+2.95	0.685195691794649\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+2.85	0.496045260586303\\
+2.95	0.496045260586303\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.1	0.339981330199236\\
+3.1	0.723366288848383\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.05	0.723366288848383\\
+3.15	0.723366288848383\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.05	0.339981330199236\\
+3.15	0.339981330199236\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.9	0.484863910890976\\
+3.9	0.669017041489976\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.85	0.669017041489976\\
+3.95	0.669017041489976\\
+};
+\addplot [color=blue, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+3.85	0.484863910890976\\
+3.95	0.484863910890976\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+4.1	0.326918940320367\\
+4.1	0.768033440632015\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+4.05	0.768033440632015\\
+4.15	0.768033440632015\\
+};
+\addplot [color=red, line width=1.0pt, forget plot]
+  table[row sep=crcr]{%
+4.05	0.326918940320367\\
+4.15	0.326918940320367\\
+};
+\end{axis}
+\end{tikzpicture}%
